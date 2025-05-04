@@ -15,9 +15,9 @@ potvrzení jednotlivých úkolů.
 
 Jako školitel mohu potvrzovat mně přiřazeným rezidentům úkoly v modulu.
 
-*Jak funguje toto přiřazování? Jsou mi přiřazeni rezidenti? Rezidenti v rámci
-jednoho modulu? Modul a tranzitivně potom všichni rezidenti v něm? Kdo mi
-moduly a rezidenty přiřazuje? Celá tato hierarchie je potřeba dořešit.*
+*Jak přesně funguje toto přiřazování? Jsou mi přiřazeni rezidenti? Rezidenti v
+rámci jednoho modulu? Modul a tranzitivně potom všichni rezidenti v něm? Kdo mi
+moduly a rezidenty přiřazuje? Toto celé je ještě potřeba dořešit.*
 
 ### Manažer
 
@@ -62,17 +62,21 @@ Nabízí se dva způsoby, jak toto provádět:
 - Rezident označí, co chce potvrdit. Školitel dostane oznámeni,
   které odklikne a tím se rezidentovi vybrané úkoly potvrdí.
 
+*Je nutné lépe motivovat, proč by si měl rezident o potvrzení žádat. Pokud je
+školitel na místě a vidí práci rezidenta, pak může příslušné úkoly potvrdit sám
+od sebe.*
+
 *Jak ošetřit případ, kdy rezident bude chtít podvádět a pokusí se nechat si
 potvrdit i úkoly, které neprovedl?*
 
 Některé úkoly může schválit jen školitel, kterého má rezident přiřazeného. Jiné
 může schválit kdokoliv s potřebnou rolí.
 
-*K čemu je toto dobré?*
+*Není zřejmé, k čemu je toto dobré. Nutno podložit příklady scénářů.*
 
 Úkoly nemusí být plněny postupně -- neexistuje mezi nimi návaznost.
 
-*Jaké typy potvrzení mohou úkoly mít? Splněno/nesplněno? Číslo?*
+*Co může školitel do potvrzení zadat? Splněno? Číselné skóre?*
 
 ## Technické poznámky
 
