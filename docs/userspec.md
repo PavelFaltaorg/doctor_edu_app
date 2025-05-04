@@ -17,7 +17,7 @@ Jako školitel mohu potvrzovat mně přiřazeným rezidentům úkoly v modulu.
 
 *Jak funguje toto přiřazování? Jsou mi přiřazeni rezidenti? Rezidenti v rámci
 jednoho modulu? Modul a tranzitivně potom všichni rezidenti v něm? Kdo mi
-moduly a rezidenty přiřazuje?*
+moduly a rezidenty přiřazuje? Celá tato hierarchie je potřeba dořešit.*
 
 ### Manažer
 
@@ -26,6 +26,8 @@ těchto rezidentů.
 
 *Mohu jako manažer přiřazovat rezidenty do kurzů? A co rezidenty ke
 školitelům?*
+
+*Jaký význam má role manažera? Jeho existenci je nutné lépe motivovat.*
 
 ### Administrátor
 
@@ -53,10 +55,11 @@ nahrávka z meetingu.*
 ## Úkoly
 
 Rezident během plnění modulu žádá školitele o potvrzení jednotlivých úkolů.
+Nabízí se dva způsoby, jak toto provádět:
 
-- **Varianta A**: Rezident označí, co chce potvrdit. Zobrazí se mu QR kód,
+- Rezident označí, co chce potvrdit. Zobrazí se mu QR kód,
   který školitel naskenuje a tím rezidentovi vybrané úkoly potvrdí.
-- **Varianta B**: Rezident označí, co chce potvrdit. Školitel dostane oznámeni,
+- Rezident označí, co chce potvrdit. Školitel dostane oznámeni,
   které odklikne a tím se rezidentovi vybrané úkoly potvrdí.
 
 *Jak ošetřit případ, kdy rezident bude chtít podvádět a pokusí se nechat si
@@ -65,11 +68,11 @@ potvrdit i úkoly, které neprovedl?*
 Některé úkoly může schválit jen školitel, kterého má rezident přiřazeného. Jiné
 může schválit kdokoliv s potřebnou rolí.
 
-*K čemu je tato funkcionalita dobrá?*
+*K čemu je toto dobré?*
 
 Úkoly nemusí být plněny postupně -- neexistuje mezi nimi návaznost.
 
-*Jaké typy potvrzení mohou úkoly mít? Boolovské ano/ne? Celočíselný počet?*
+*Jaké typy potvrzení mohou úkoly mít? Splněno/nesplněno? Číslo?*
 
 ## Technické poznámky
 
