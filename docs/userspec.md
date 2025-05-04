@@ -17,7 +17,9 @@ Jako školitel mohu potvrzovat mně přiřazeným rezidentům úkoly v modulu.
 
 *Jak přesně funguje toto přiřazování? Jsou mi přiřazeni rezidenti? Rezidenti v
 rámci jednoho modulu? Modul a tranzitivně potom všichni rezidenti v něm? Kdo mi
-moduly a rezidenty přiřazuje? Toto celé je ještě potřeba dořešit.*
+moduly a rezidenty přiřazuje? Toto celé je ještě potřeba dořešit.* 
+(P: ja bych rekl ze manazer priradi rezidenty do kurzi a priradi skolitele. 
+tudiz jedina funkcionalita skolitele je skutecne jenom potvrzovat zadosti)
 
 ### Manažer
 
@@ -25,14 +27,14 @@ Jako manažer vidím v systému mně přiřazené školitele, jejich rezidenty a
 těchto rezidentů.
 
 *Mohu jako manažer přiřazovat rezidenty do kurzů? A co rezidenty ke
-školitelům?*
+školitelům?* (P: ano)
 
-*Jaký význam má role manažera? Jeho existenci je nutné lépe motivovat.*
+*Jaký význam má role manažera? Jeho existenci je nutné lépe motivovat.* (P: "spravci" celeho systemu potvrovani)
 
 ### Administrátor
 
 Jako administrátor systému mohu cokoliv, zejména však vytvářet kurzy a
-přiřazovat k nim uživatele.
+přiřazovat k nim uživatele. (P: to muze hlavne i manazer, administrator potom je hlavne k CRUD operacema nad uctama)
 
 ## Moduly
 
@@ -42,6 +44,7 @@ Modul je základní jednotkou platformy a minimálně musí mít:
 - autora;
 - kompetence;
 - prerekvizity.
+- deadline!
 
 - verze, platnost, garant, rezident, školitel ... (vzato z pdfka)
 
@@ -66,19 +69,19 @@ Nabízí se dva způsoby, jak toto provádět:
 
 *Je nutné lépe motivovat, proč by si měl rezident o potvrzení žádat. Pokud je
 školitel na místě a vidí práci rezidenta, pak může příslušné úkoly potvrdit sám
-od sebe.*
+od sebe.* (P: mechanismus "uznani" i bez zadosti?)
 
 *Jak ošetřit případ, kdy rezident bude chtít podvádět a pokusí se nechat si
-potvrdit i úkoly, které neprovedl?*
+potvrdit i úkoly, které neprovedl?* (TODO)
 
 Některé úkoly může schválit jen školitel, kterého má rezident přiřazeného. Jiné
 může schválit kdokoliv s potřebnou rolí.
 
-*Není zřejmé, k čemu je toto dobré. Nutno podložit příklady scénářů.*
+*Není zřejmé, k čemu je toto dobré. Nutno podložit příklady scénářů.* (real TODO, jako easy na implemetaci ale proc?)
 
 Úkoly nemusí být plněny postupně -- neexistuje mezi nimi návaznost.
 
-*Co může školitel do potvrzení zadat? Splněno? Číselné skóre?*
+*Co může školitel do potvrzení zadat? Splněno? Číselné skóre?* (P: asi staci jenom bool 0-1)
 
 ## Technické poznámky
 
