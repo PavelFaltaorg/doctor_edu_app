@@ -11,7 +11,7 @@ ale může mít víc rolí zároveň, např. manažer může zároveň být i š
 Jako rezidentovi mi mohou být přiřazeny moduly, které mohu plnit žádáním o
 potvrzení jednotlivých úkolů.
 
-### Školitel
+### Školitel (učitel v nahrávce)
 
 Jako školitel mohu potvrzovat mně přiřazeným rezidentům úkoly v modulu.
 
@@ -43,14 +43,16 @@ Modul je základní jednotkou platformy a minimálně musí mít:
 - kompetence;
 - prerekvizity.
 
+- verze, platnost, garant, rezident, školitel ... (vzato z pdfka)
+
 Modul je tvořen úkoly, viz sekce níže. Ty mohou být rozděleny na sekce, např,
 odborné znalosti, praktické dovednosti, výkony, observace...
 
 *Jak má být u modulů řešena návaznost? Jsou prerekvizity pouze slovní, nebo se
-zadávají i moduly, které je nutné splnit před?*
+zadávají i moduly, které je nutné splnit před?* (P: druha varianta, ID modulu prerekvizitnich)
 
 *Jak si mám představit, že každý modul může mít vlastního administrátora? Viz
-nahrávka z meetingu.*
+nahrávka z meetingu.* (P: mozna garant? jak je napsany v pdfku. nejspise nekdo, kdo ho jako jediny bude moct upravovat)
 
 ## Úkoly
 
